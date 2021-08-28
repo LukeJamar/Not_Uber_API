@@ -201,7 +201,7 @@ router.get("/:id/nearbyDrivers", async (req, res) => {
                          + availableDrivers[index].location.lon.toString(),
                 destinations: rider.location.lat.toString() + ',' + rider.location.lon.toString(),
                 units: 'imperial',
-                key: 'AIzaSyBK9h3HQR77CKSzWp73MePl3BmzcTEjQTU'
+                key: 'lmao no' // get your own API key
             }
         });
 
